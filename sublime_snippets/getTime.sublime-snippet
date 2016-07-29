@@ -1,0 +1,37 @@
+<snippet>
+	<content><![CDATA[
+var today = new Date();
+var dd = today.getDate();
+var mm = today.getMonth()+1; //January is 0!
+var yyyy = today.getFullYear();
+var hour = today.getHours();
+var minutes = today.getMinutes();
+var ampm;
+
+  function getTime(){
+
+  var date;
+
+  if(mm<10) {
+      mm='0'+mm
+  } 
+
+  if(hour>12){
+    hour=hour%2
+    ampm='pm'
+  }
+  else{
+    ampm ='am'
+  }
+
+  date = mm+'/'+dd+'/'+yyyy+' '+hour+' '+minutes+' '+ampm;
+  return date;
+}
+]]></content>
+	<tabTrigger>getTime</tabTrigger>
+	<scope>source.js</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
