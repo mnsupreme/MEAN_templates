@@ -1,4 +1,4 @@
-app.controller('ControllerNames(plural-capital naming convention)', ["$scope", 'friendFactory', '$routeParams', '$location', function($scope, friendFactory, $routeParams, $location){
+app.controller('ControllerNames(plural-capital naming convention)', ["$scope", 'friendFactory', '$routeParams', '$localStorage', '$location', function($scope, friendFactory, $routeParams, $localStorage, $location){
 		
 
 		$scope.function=Factory.function($routeParams, function(){

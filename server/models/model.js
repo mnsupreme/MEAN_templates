@@ -21,3 +21,4 @@ var GenericSchema = new mongoose.Schema({
 }, {timestamps: true });
 // register the schema as a model
 var name_of_model = mongoose.model('name of model', GenericSchema);
+
