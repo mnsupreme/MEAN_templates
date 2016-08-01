@@ -4,7 +4,7 @@ var name_of_model = mongoose.model('name of model');
 // WE NEED TO ADD A FEW lines of code here!
 // How does a controller talk to mongoose and get a model?
 // Build out the methods in the friendsControllers below
-function PluralNamingConventionCamelCase(){
+function PluralNamingConventionPascalCase(){
 
   
   // enter functions here
@@ -28,7 +28,7 @@ function PluralNamingConventionCamelCase(){
     }
   }
 }
-module.exports = new PluralNamingConventionCamelCase(); // what does this export?
+module.exports = new PluralNamingConventionPascalCase(); // what does this export?
    
 //creating child objects in a one to many relation ship
 
