@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 this.${1:function} = function(req,res$2){
-	
+	console.log('$3 server controller function fired')
 }
 ]]></content>
 

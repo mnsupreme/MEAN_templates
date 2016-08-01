@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-app.controller('${1:ControllerNames(plural-capital naming convention)}', ["\$scope", '${2:friendFactory}', $3 '\$routeParams', '\$localStorage', '\$location', function($scope, ${4:friendFactory}, $5 \$routeParams, \$localStorage, \$location){
+app.controller('${1:ControllerNames(plural-capital naming convention)}', ['\$scope', '${2:someFactory}', $3 '\$routeParams', '\$localStorage', '\$location', function(\$scope, ${4:someFactory}, $5 \$routeParams, \$localStorage, \$location){
 		
 
 	

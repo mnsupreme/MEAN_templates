@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 \$scope.${1:variable} = ${2:function}($3){
-	
+	console.log('$4 controller function fired')
 }
 ]]></content>
 	<tabTrigger>angular controller function</tabTrigger>

@@ -4,12 +4,12 @@ console.log('$1 server controller');
 var mongoose = require('mongoose');
 var ${2:name_of_model} = mongoose.model('${2:name of model}');
 
-function ${3:PluralNamingConventionCamelCase}(){
+function ${3:PluralNamingConventionPascalCase}(){
 
   
   
 }
-module.exports = new ${3:PluralNamingConventionCamelCase}();
+module.exports = new ${3:PluralNamingConventionPascalCase}();
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>mean controller</tabTrigger>

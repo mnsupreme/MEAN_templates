@@ -1,7 +1,8 @@
 <snippet>
 	<content><![CDATA[
 factory.${1:function} = function(${2:passin,} ${3:callback}){
-  	
+  	console.log('$4 factory function fired')
+
   	}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
