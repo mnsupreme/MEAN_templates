@@ -172,16 +172,16 @@ code:
  _association_parent: {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}
  //one to many where this is the one
 
- description: creates a new parent association to be added to a mongoose model 
- supported filetype: .js 
+ description: creates a new parent association to be added to a mongoose model <br />
+ supported filetype: .js <br />
  where to find: MEAN_mongoose_association_parent.sublime-snippet
 
  #mean child
  code:
  _association_children:[{type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}]//one to many where this is the many
 
- description: creates a new mean child association to be added to a mongoose model 
- spported filetype: .js
+ description: creates a new mean child association to be added to a mongoose model <br />
+ spported filetype: .js <br />
  where to find: MEAN_mongoose_association_child.sublime-snippet
 
  #mean validate
@@ -195,8 +195,8 @@ validate:{ //make this an array of objects for multiple validation objects
     message:'failure message goes here'
     }
  },
- description: creates a validation object to be added to a mongoose schema
- supported filetype: .js
+ description: creates a validation object to be added to a mongoose schema <br />
+ supported filetype: .js <br />
 where to find: MEAN_mongoose_validation.sublime-snippet
 
  #mean search
