@@ -170,35 +170,28 @@ where to find: MEAN_function_server_controller.sublime-snippet
 #mean parent
 code:
  _association_parent: {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}
- 
-
- description: creates a new parent association to be added to a mongoose model 
+ description: creates a new parent association to be added to a mongoose model <br />
  supported filetype: .js <br />
- where to find: MEAN_mongoose_association_parent.sublime-snippet
-
- #mean child
+ where to find: MEAN_mongoose_association_parent.sublime-snippet <br />
+ #mean child 
  code:
  _association_children:[{type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}]
-
  description: creates a new mean child association to be added to a mongoose model <br />
  spported filetype: .js <br />
  where to find: MEAN_mongoose_association_child.sublime-snippet
-
  #mean validate
- code:
+ code: 
  {
-validate:{ //make this an array of objects for multiple validation objects
+validate:{ 
       validator: function( value ){
-        //validation function goes here
         
       },
     message:'failure message goes here'
     }
  },
- description: creates a validation object to be added to a mongoose schema <br />
+ description: creates a validation object to be added to a mongoose schema 
  supported filetype: .js <br />
 where to find: MEAN_mongoose_validation.sublime-snippet
-
  #mean search
  code:
  this.search = function(req,res){
@@ -211,8 +204,7 @@ where to find: MEAN_mongoose_validation.sublime-snippet
     }
     })
   }
-
-  description: creates a search function to be added to a server side controller
+  description: creates a search function to be added to a server side controller 
   supported filetype: .js
   where to find: MEAN_search_server_controller.sublime-snippet
 
