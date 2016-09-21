@@ -44,8 +44,8 @@ $scope.variable = function(){
   console.log(' controller function fired')
 }
 
-description: creates a new angular controller function to be put in an angular controller
-supported filetype: .js
+description: creates a new angular controller function to be put in an angular controller <br />
+supported filetype: .js <br />
 where to find: Angular_controller_function.sublime-snippet
 
 #angular factory
@@ -58,8 +58,8 @@ app.factory('defaultFactory (camel case singular)', ['$http', function($http){
   return factory
 }])
 
-description: creates a new factory for angular
-supported filetype: .js
+description: creates a new factory for angular <br />
+supported filetype: .js <br />
 where to find: Angular_factory.sublime-snippet
 
 #angular factory function
@@ -69,27 +69,27 @@ factory.function = function(passin, callback){
 
     }
 
-description:creates a new angular factory function
-supported filetype: .js
+description:creates a new angular factory function <br />
+supported filetype: .js <br />
 where to find: Angular_factory_function.sublime-snippet 
 
 
 #get
 code: $http.get('/route').then(callback)
-description: creates a new angular factory get handler
-supported filetype: .js
+description: creates a new angular factory get handler <br />
+supported filetype: .js <br />
 where to find: Angular_factory_http_get.sublime-snippet
 
 #post
 code: $http.post('/route', passin).then(callback)
-description: creates a new angular controller post handler
-supported fuletype: .js
+description: creates a new angular controller post handler <br />
+supported fuletype: .js <br />
 where to find: Angular_factory_http_post.sublime-snippet
 
 #console.log
 code: console.log()
-description: creates a console.log statement to be filled in
-where to find: console_log.sublime-snippet
+description: creates a console.log statement to be filled in <br />
+where to find: console_log.sublime-snippet <br />
 
 #getTime
 code:
@@ -119,9 +119,9 @@ var ampm;
 
   date = mm+'/'+dd+'/'+yyyy+' '+hour+' :'+minutes+' '+ampm;
   return date;
-}
-description: creates a function to formate time and date 
-supported filetypes: .js, .html
+} <br />
+description: creates a function to formate time and date <br />
+supported filetypes: .js, .html <br />
 where to find: getTime.sublime-snippet
 
 #mean model
@@ -137,8 +137,8 @@ var GenericSchema = new mongoose.Schema({
 // register the schema as a model
 var name_of_model = mongoose.model('name_of_model', GenericSchema);
 
-description: creates a new MEAN generic schema to be filled in and added to mongoose models
-supported filetype: .js
+description: creates a new MEAN generic schema to be filled in and added to mongoose models <br />
+supported filetype: .js <br />
 where to find: MEAN_mongoose_model.sublime-snippet
 
 #mean controller
@@ -153,8 +153,8 @@ function PluralNamingConventionPascalCase(){
 }
 module.exports = new PluralNamingConventionPascalCase();
 
-description: creates a new server side controller to be filled in
-supported filetype: .js
+description: creates a new server side controller to be filled in <br />
+supported filetype: .js <br />
 where to find: MEAN_server_controller.sublime-snippet
 
 #mean function
@@ -163,23 +163,24 @@ this.function = function(req,res){
   console.log(' server controller function fired')
 }
 
-description: creates a new function to be added to a server side controller
-supported filetype: .js
+description: creates a new function to be added to a server side controller <br />
+supported filetype: .js <br />
 where to find: MEAN_function_server_controller.sublime-snippet
 
 #mean parent
 code:
- _association_parent: {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'},//one to many where this is the one
+ _association_parent: {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}
+ //one to many where this is the one
 
- description: creates a new parent association to be added to a mongoose model
- supported filetype: .js
+ description: creates a new parent association to be added to a mongoose model 
+ supported filetype: .js 
  where to find: MEAN_mongoose_association_parent.sublime-snippet
 
  #mean child
  code:
  _association_children:[{type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}]//one to many where this is the many
 
- description: creates a new mean child association to be added to a mongoose model
+ description: creates a new mean child association to be added to a mongoose model 
  spported filetype: .js
  where to find: MEAN_mongoose_association_child.sublime-snippet
 
