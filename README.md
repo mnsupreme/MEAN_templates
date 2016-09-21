@@ -169,15 +169,16 @@ where to find: MEAN_function_server_controller.sublime-snippet
 
 #mean parent
 code:
- _association_parent: {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}
+ _association_parent: {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}<br />
  description: creates a new parent association to be added to a mongoose model <br />
  supported filetype: .js <br />
  where to find: MEAN_mongoose_association_parent.sublime-snippet <br />
+
  #mean child 
  code:
  _association_children:[{type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}]
- description: creates a new mean child association to be added to a mongoose model <br />
- spported filetype: .js <br />
+ description: creates a new mean child association to be added to a mongoose model 
+ spported filetype: .js 
  where to find: MEAN_mongoose_association_child.sublime-snippet
  #mean validate
  code: 
