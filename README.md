@@ -34,8 +34,8 @@ app.controller('ControllerNames(plural-capital naming convention)', ['$scope', '
     
   }])
 
-description: creates a new angular controller witb auto fill ins
-supported file types: .js
+description: creates a new angular controller witb auto fill ins <br />
+supported file types: .js <br />
 where to find: Angular_controller.sublime-snippet
 
 #angular controller function
