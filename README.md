@@ -165,11 +165,11 @@ this.function = function(req,res){
 
 description: creates a new function to be added to a server side controller <br />
 supported filetype: .js <br />
-where to find: MEAN_function_server_controller.sublime-snippet 
+where to find: MEAN_function_server_controller.sublime-snippet<br />
 
 #mean parent
 code:
- _association_parent: {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}<br />
+ _association_parent {type: Schema.Types.ObjectId, ref: 'name_of_foreighn_model'}<br />
  description: creates a new parent association to be added to a mongoose model <br />
  supported filetype: .js <br />
  where to find: MEAN_mongoose_association_parent.sublime-snippet <br />
